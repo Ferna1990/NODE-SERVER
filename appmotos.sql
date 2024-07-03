@@ -62,7 +62,7 @@ INSERT INTO `consultas` (`id_consulta`, `nya`, `consulta`, `correo`, `leido`) VA
 --
 
 CREATE TABLE `motos` (
-  `id_moto` int(11) NOT NULL,
+  `id_moto` int(11) NOT NULL AUTO_INCREMENT,
   `modelo` varchar(20) NOT NULL,
   `descripcion` varchar(250) NOT NULL,
   `precio` varchar(10) NOT NULL,
